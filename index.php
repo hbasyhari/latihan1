@@ -1,8 +1,8 @@
-  <?php
-  Operator Aritmatika
-  $x = 10 ;
-  $y = 20;
-  	echo $x - $y;
-	echo $x * $y;
-	echo $x / $y;
-	echo $x % $y;
+	<?php
+
+	$nama_depan = "Habib";
+	$nama_belakang = "Asyhari";
+
+	echo $nama_depan . "" . $nama_belakang;
+
+	?>
