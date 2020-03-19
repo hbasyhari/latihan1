@@ -1,8 +1,27 @@
-	<?php
+  <?php
+  
+  $x = 10 ;
+  $x += 20;
+  echo $x </br>;
 
-	$nama_depan = "Habib";
-	$nama_belakang = "Asyhari";
+  $y = 15 ;
+  $y -= 8;
+  echo $y </br>;
 
-	echo $nama_depan . "" . $nama_belakang;
+  $y = 15 ;
+  $y = 8;
+  echo $y</br> ;
 
-	?>
+  $y = 15 ;
+  $y /= 8;
+  echo $y </br>;
+
+  $y = 15 ;
+  $y %= 8;
+  echo $y </br> ;
+
+  $y = 15 ;
+  $y .= 8;
+  echo $y </br>;
+
+  ?>
