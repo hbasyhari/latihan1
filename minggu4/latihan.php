@@ -1,10 +1,11 @@
-<?php
+<?php 
 
-$i = 0;
-while ($i < 5){
+echo "<h2>Menggunakan Perulangan While</h2>";
 
-	echo "Hai, Dunia! <br>";
-	$i++;
-}
-
+$i = 1; 
+ 
+while($i < 6) {
+    echo "Hai, ini baris ke-$i <br>";
+    $i++;
+} 
 ?>
