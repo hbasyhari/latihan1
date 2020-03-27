@@ -1,11 +1,17 @@
 <?php 
 
-echo "<h2>Menggunakan Perulangan While</h2>";
+echo "<h2>Menggunakan Perulangan Do While</h2>";
 
-$i = 1; 
+$i = 10; 
  
-while($i < 6) {
-    echo "Hai, ini baris ke-$i <br>";
+ do {
+    echo "Hello Word! <br>";
     $i++;
-} 
+
+} while($i < 5);
+
 ?>
+
+# Jawaban
+
+script $i = 10; --> seharusnya $i = 1; Untuk menampilkan output lebih dari 1 baris  
