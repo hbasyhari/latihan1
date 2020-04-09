@@ -1,8 +1,6 @@
 <?php
-echo date("l");
-echo date("d");
-echo date("M");
-echo date("m");
-echo date("Y");
-
+echo date("l, d-M-Y",
+	time() + 
+	60 * 60 * 60 * 24 + 100
+);
 ?>
