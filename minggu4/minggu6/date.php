@@ -1,6 +1,3 @@
 <?php
-echo date("l, d-M-Y",
-	time() - 
-	60 * 60 * 24 * 500
-);
+echo date('d-m-Y', mktime(0,0,0,8,30,1992));
 ?>
